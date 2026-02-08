@@ -31,7 +31,7 @@ The simulation handles the sharp **Z-boson resonance peak** near $Q \approx 91$ 
 
 ```bash
 # Create the optimized environment
-conda create -n physics_m4 python=3.12
+conda create -n liv python=3.12
 conda activate liv
 
 # Install dependencies
