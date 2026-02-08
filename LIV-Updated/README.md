@@ -30,10 +30,6 @@ The simulation handles the sharp **Z-boson resonance peak** near $Q \approx 91$ 
 ## Installation
 
 ```bash
-# Create the optimized environment
-conda create -n liv python=3.12
-conda activate liv
-
-# Install dependencies
-conda install numpy scipy matplotlib pytorch
-# Ensure LHAPDF is installed and PDF sets (NNPDF31) are downloaded
+# Create the environment using the conda-forge channel
+conda create -n physics_m4 -c conda-forge python=3.12 numpy scipy matplotlib pytorch
+conda install -c conda-forge lhapdf
