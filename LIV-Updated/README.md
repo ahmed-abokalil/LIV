@@ -11,7 +11,6 @@ This is an updated, faster, and more precise version specifically optimized for 
 | **SciPy** | `1.14+` | Numerical integration using `quad` and `simpson` |
 | **PyTorch** | `2.x` | High-speed tensor contractions via `tn.einsum` |
 | **LHAPDF** | `6.5+` | Parton Distribution Function (PDF) interpolation |
-| **Matplotlib**| `3.8+` | Scientific visualization of LIV contributions |
 
 ---
 
