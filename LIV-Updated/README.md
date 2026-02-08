@@ -31,5 +31,5 @@ The simulation handles the sharp **Z-boson resonance peak** near $Q \approx 91$ 
 
 ```bash
 # Create the environment using the conda-forge channel
-conda create -n physics_m4 -c conda-forge python=3.12 numpy scipy matplotlib pytorch
+conda create -n liv -c conda-forge python=3.12 numpy scipy matplotlib pytorch
 conda install -c conda-forge lhapdf
